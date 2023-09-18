@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(45, 45, 45);
+}
+
+.main {
+  height: 700px;
+  background-color: burlywood;
+}
+
+.main p {
+  margin: 0;
+  padding-top: 2rem;
+  width: 50%;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.wrapper div {
+  width: 160px;
+  height: 160px;
+  background-color: brown;
+}
+
+.wrapper div:first-child {
+  background-color: blue;
+}
+
+.wrapper div:last-child {
+  background-color: rgb(0, 255, 106);
+}
+
+.wrapper div:nth-child(2) {
+  background-color: rgb(7, 7, 88);
+}
+
+.wrapper2 {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.wrapper2 div {
+  width: 160px;
+  height: 160px;
+  background-color: rgb(42, 165, 110);
+}
+
+/* .wrapper2 div:nth-child(2n - 1) {
+  background-color: black;
+  color: white;
+} */
+
+.wrapper2 div:nth-child(even) {
+  background-color: violet;
+}
+
+input[name="userName"] {
+  padding: 0.5rem;
+}
